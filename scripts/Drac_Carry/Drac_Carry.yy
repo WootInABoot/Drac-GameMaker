@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Drac_Carry",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Drac_Carry",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

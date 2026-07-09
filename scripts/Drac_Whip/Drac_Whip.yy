@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Drac_Whip",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Drac_Whip",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

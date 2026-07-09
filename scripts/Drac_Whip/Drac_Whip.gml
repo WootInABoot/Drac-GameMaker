@@ -19,7 +19,7 @@ if (sprite_index != sDracWhip) {
 // oh nah bruh drac got the janky hitbox
 mask_index = sDracWhip_HB;
 var _hitByAttackNow = ds_list_create();
-var _hits = instance_place_list(x,y,oEnemyTest,_hitByAttackNow,false);
+var _hits = instance_place_list(x,y,oEnemy,_hitByAttackNow,false);
 
 if (_hits > 0){
 	for (var i = 0; i < _hits; i++){
@@ -31,7 +31,7 @@ if (_hits > 0){
 			
 			with (hitID){
 				// Whatever happens to the enemy / object goes here
-				// Nothing to put here yet...
+
 			}
 		}
 	}

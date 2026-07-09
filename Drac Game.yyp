@@ -32,7 +32,7 @@
   "name":"Drac Game",
   "resources":[
     {"id":{"name":"oAfterImageFlop","path":"objects/oAfterImageFlop/oAfterImageFlop.yy",},},
-    {"id":{"name":"oEnemyTest","path":"objects/oEnemyTest/oEnemyTest.yy",},},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oInt","path":"objects/oInt/oInt.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSpdDust","path":"objects/oSpdDust/oSpdDust.yy",},},

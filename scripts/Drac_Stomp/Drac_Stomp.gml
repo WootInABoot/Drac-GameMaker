@@ -19,7 +19,7 @@ if (not onground) {
 
 	
 	if (vspd > 1) and (sprite_index == sDracFlop1) { // Set mask and  after images on way down
-		mask_index = sDracFlop_HB;
+		//mask_index = sDracFlop_HB;
 		
 		flickerTimer++;
 		if (flickerTimer >= 2) { // After Images

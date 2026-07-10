@@ -14,6 +14,7 @@ jumpSpd = 4.2;  // 3.59
 highJumpSpd = 5;
 jumped = 0;
 jumpCut = 1;
+hjCheck = 0; // So HJ Anim doesnt loop
 
 //Accel & Traction
 accel = 0;

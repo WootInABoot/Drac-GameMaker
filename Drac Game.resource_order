@@ -29,6 +29,7 @@
     {"name":"sDracFlop_HB","order":15,"path":"sprites/sDracFlop_HB/sDracFlop_HB.yy",},
     {"name":"sDracFlop1","order":8,"path":"sprites/sDracFlop1/sDracFlop1.yy",},
     {"name":"sDracFlop2","order":10,"path":"sprites/sDracFlop2/sDracFlop2.yy",},
+    {"name":"sDracHJ","order":17,"path":"sprites/sDracHJ/sDracHJ.yy",},
     {"name":"sDracJump","order":5,"path":"sprites/sDracJump/sDracJump.yy",},
     {"name":"sDracRun","order":3,"path":"sprites/sDracRun/sDracRun.yy",},
     {"name":"sDracStand","order":11,"path":"sprites/sDracStand/sDracStand.yy",},

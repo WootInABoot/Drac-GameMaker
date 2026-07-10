@@ -5,6 +5,10 @@ function Drac_Stomp(){
 lockDir = true;
 lockJump = true;
 
+if highJump {
+	highJump = false;
+}
+
 
 //Start Stomp
 if (not onground) {

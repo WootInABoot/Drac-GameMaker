@@ -2,6 +2,11 @@ function Drac_Whip(){
 
 
 // Start Whip
+
+if highJump {
+	highJump = false;
+}
+
 if (sprite_index != sDracWhip) {
 	sprite_index = sDracWhip;
 	if (onground) {
@@ -29,8 +34,11 @@ if (_hits > 0){
 		if (ds_list_find_index(attackHit,_hitID) == -1){
 			ds_list_add(attackHit,_hitID);
 			
-			with (hitID){
+			with (_hitID){
 				// Whatever happens to the enemy / object goes here
+				onHit(); // TODO: Spawn instance for hitbox
+				
+				
 
 			}
 		}

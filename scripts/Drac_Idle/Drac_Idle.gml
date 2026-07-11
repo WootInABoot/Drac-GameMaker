@@ -3,6 +3,10 @@ function Drac_Idle(){
 		#region // Animation Stuff 
 
 if (onground){
+	
+	if highJump = true {
+		highJump = false;
+	}
 
 	if (abs(hspd) > 0) { // Walk/Run Animation. if hspd = maxspd set animation to run, else walk
 
@@ -45,11 +49,13 @@ if (onground){
         image_index = (vspd >= 0) + (vspd >= 1.5);
         animIdle = false;
 		
-	} else {
-		sprite_index = sDracTwirl;
-        image_speed = 1.7;
+	} else if (highJump = true) {
+		sprite_index = sDracHJ;
+        image_speed = 1.8;
 		animIdle = false;
-
+		if (sprite_index == sDracHJ) and (image_index > 7){
+			image_speed = 0;
+		}
 	}
 }
 

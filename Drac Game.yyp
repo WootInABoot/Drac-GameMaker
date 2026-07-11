@@ -52,6 +52,7 @@
     {"id":{"name":"Drac_Stomp","path":"scripts/Drac_Stomp/Drac_Stomp.yy",},},
     {"id":{"name":"Drac_Whip","path":"scripts/Drac_Whip/Drac_Whip.yy",},},
     {"id":{"name":"sAfterImageFlop","path":"sprites/sAfterImageFlop/sAfterImageFlop.yy",},},
+    {"id":{"name":"sBinoBlock","path":"sprites/sBinoBlock/sBinoBlock.yy",},},
     {"id":{"name":"sDrac","path":"sprites/sDrac/sDrac.yy",},},
     {"id":{"name":"sDracBall1","path":"sprites/sDracBall1/sDracBall1.yy",},},
     {"id":{"name":"sDracBall2","path":"sprites/sDracBall2/sDracBall2.yy",},},

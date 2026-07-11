@@ -26,6 +26,7 @@
     {"name":"Drac_Stomp","order":2,"path":"scripts/Drac_Stomp/Drac_Stomp.yy",},
     {"name":"Drac_Whip","order":1,"path":"scripts/Drac_Whip/Drac_Whip.yy",},
     {"name":"sAfterImageFlop","order":2,"path":"sprites/sAfterImageFlop/sAfterImageFlop.yy",},
+    {"name":"sBinoBlock","order":2,"path":"sprites/sBinoBlock/sBinoBlock.yy",},
     {"name":"sDrac","order":1,"path":"sprites/sDrac/sDrac.yy",},
     {"name":"sDracBall1","order":6,"path":"sprites/sDracBall1/sDracBall1.yy",},
     {"name":"sDracBall2","order":7,"path":"sprites/sDracBall2/sDracBall2.yy",},

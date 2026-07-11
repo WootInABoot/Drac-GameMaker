@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTestObject",
-    "path":"sprites/sTestObject/sTestObject.yy",
+    "name":"sBinoBlock",
+    "path":"sprites/sBinoBlock/sBinoBlock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

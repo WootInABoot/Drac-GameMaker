@@ -1,5 +1,3 @@
-event_inherited()
-
 //dir
 facing = 1;
 
@@ -48,8 +46,6 @@ animIdle = true; // So the idle frames don't get messed up
 
 spdDust = false; //idk if this is the best solution for dust particles atm
 
-state = DRACSTATE.IDLE; // Drac status: hungry
-
 attackHit = ds_list_create(); // detect violence
 
 lockDir = false; // Lock direction if true
@@ -64,32 +60,27 @@ get_inputs = function(){
 	if not lockMove {
 	
 		// Left/Right Keys
-		hkey = (keyboard_check(vk_right) or keyboard_check(ord("D"))) - (keyboard_check(vk_left) or keyboard_check(ord("A")))
-		upkey = (keyboard_check(vk_up) or keyboard_check(ord("W")));
-		downkey = (keyboard_check(vk_down) or keyboard_check(ord("S")));
-		attackkey = keyboard_check_pressed(ord("J")) or keyboard_check_pressed(ord("X"))
+		hkey = 0;
+		upkey = 0;
+		downkey = 0;
+		attackkey = 0;
 	}
 
 	if not lockJump {
 		// Jump Keys
-		jkey = (keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(ord("K")))
-		jkeyhold = (keyboard_check(ord("Z")) or keyboard_check(ord("K")))
+		jkey = 0;
+		jkeyhold = 0;
 	}
 
 	if jkey {
 		jumpBuffer = jumpBufferFrames;
 	}
 
-image_xscale = facing;
+	image_xscale = facing;
 
 }
-
-
-enum DRACSTATE {
+	get_inputs();
 	
-	IDLE,
-	TAIL_WHIP,
-	STOMP,
-	CARRY
+on_hit = function(){
 	
 }

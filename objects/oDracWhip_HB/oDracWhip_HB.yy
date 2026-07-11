@@ -1,23 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
+  "%Name":"oDracWhip_HB",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":82,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayer",
+  "name":"oDracWhip_HB",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Hitboxes",
+    "path":"folders/Objects/Player/Hitboxes.yy",
   },
-  "parentObjectId":{
-    "name":"oEntity",
-    "path":"objects/oEntity/oEntity.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDrac",
-    "path":"sprites/sDrac/sDrac.yy",
+    "name":"sDracWhip_HB",
+    "path":"sprites/sDracWhip_HB/sDracWhip_HB.yy",
   },
-  "spriteMaskId":{
-    "name":"sDracMask",
-    "path":"sprites/sDracMask/sDracMask.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

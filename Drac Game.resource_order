@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":5,"path":"folders/Objects.yy",},
+    {"name":"Parent","order":4,"path":"folders/Objects/Parent.yy",},
     {"name":"Hitboxes","order":2,"path":"folders/Objects/Player/Hitboxes.yy",},
     {"name":"Particles","order":1,"path":"folders/Objects/Player/Particles.yy",},
     {"name":"Testing","order":1,"path":"folders/Objects/Testing.yy",},
@@ -14,8 +15,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oAfterImageFlop","order":3,"path":"objects/oAfterImageFlop/oAfterImageFlop.yy",},
+    {"name":"oDracFlop_HB","order":1,"path":"objects/oDracFlop_HB/oDracFlop_HB.yy",},
     {"name":"oEnemy","order":1,"path":"objects/oEnemy/oEnemy.yy",},
-    {"name":"oEntity","order":2,"path":"objects/oEntity/oEntity.yy",},
     {"name":"oInt","order":3,"path":"objects/oInt/oInt.yy",},
     {"name":"oStmpDust","order":1,"path":"objects/oStmpDust/oStmpDust.yy",},
     {"name":"oStmpDust2","order":2,"path":"objects/oStmpDust2/oStmpDust2.yy",},

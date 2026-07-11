@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oEntity",
+  "%Name":"oDracFlop_HB",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEntity",
+  "name":"oDracFlop_HB",
   "overriddenProperties":[],
   "parent":{
-    "name":"Parent",
-    "path":"folders/Objects/Parent.yy",
+    "name":"Hitboxes",
+    "path":"folders/Objects/Player/Hitboxes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTestObject",
-    "path":"sprites/sTestObject/sTestObject.yy",
+    "name":"sDracFlop_HB",
+    "path":"sprites/sDracFlop_HB/sDracFlop_HB.yy",
   },
   "spriteMaskId":null,
   "visible":true,

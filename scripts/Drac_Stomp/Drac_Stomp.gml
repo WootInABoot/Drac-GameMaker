@@ -5,6 +5,8 @@ function Drac_Stomp(){
 lockDir = true;
 lockJump = true;
 
+var _hbCheck = false;
+
 if highJump {
 	highJump = false;
 }
@@ -20,6 +22,8 @@ if (not onground) {
 	
 	image_speed = 0;
 	image_index = (vspd >= 0) + (vspd >= 1.5);
+	
+	
 
 	
 	if (vspd > 1) and (sprite_index == sDracFlop1) { // Set mask and  after images on way down
@@ -35,8 +39,22 @@ if (not onground) {
 			_afterID.image_speed = 6;
 			_afterID.image_xscale = facing;
 		}
-	
+			// Create hitbox
+		if (!_hbCheck) {
+			var _hitbox = instance_create_layer(x, y, layer, oDracFlop_HB);
+			with _hitbox {
+				owner = other.id;
+				fixate = other.id;
+				kb_h = other.image_xscale * 0.5;
+				kb_v = -4; // launch enemies straight upward
+				kb_hx = 0;
+				kb_vx = 0;
+				_hbCheck = true;
+			}
+		}
+		show_debug_message("gup");
 	}
+	
 
 } else {
 	
@@ -46,6 +64,7 @@ if (not onground) {
 
 	
 	if (sprite_index != sDracFlop2) { // Transition to second flop anim
+		instance_destroy(oDracFlop_HB);
 
 		if (facing < 0) { // Stomp particles
 			instance_create_layer(x-sign(image_xscale) + 8, y, layer, oStmpDust);

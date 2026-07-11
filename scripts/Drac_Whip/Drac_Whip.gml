@@ -25,8 +25,8 @@ if (sprite_index != sDracWhip) {
 	with _hitbox {
 		owner = other.id;
 		fixate = other.id;
-		kb_h = other.image_xscale * 1;
-		kb_v = -4;
+		kb_h = other.image_xscale * 0.5;
+		kb_v = -4; // launch enemies straight upward
 		kb_hx = 0;
 		kb_vx = 0;
 	}

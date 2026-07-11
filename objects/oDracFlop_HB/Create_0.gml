@@ -1,5 +1,5 @@
 image_xscale = oPlayer.image_xscale;
-image_speed = 1.2;
+image_speed = 0;
 visible = false;
 
 attackHit = ds_list_create();

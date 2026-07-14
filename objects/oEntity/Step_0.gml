@@ -1,4 +1,14 @@
+///@description Physics Code
+
 get_inputs();
+
+hitstop = max(hitstop - 1, 0) // go down by 1 until it hits 0
+if (hitstop > 0) {
+	exit; // stops code for this event temporarily
+}
+
+hitstun = max(hitstun - 1, 0) // go down by 1 until it hits 0
+holdCooldown = max(holdCooldown - 1, 0) // go down by 1 until it hits 0
 
 
 		#region // General Movement //

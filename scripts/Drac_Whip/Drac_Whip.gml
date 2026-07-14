@@ -21,7 +21,7 @@ if (sprite_index != sDracWhip) {
 	
 	// Create hitbox
 	
-	var _hitbox = instance_create_layer(x, y, layer, oDracWhip_HB);
+	var _hitbox = instance_create_layer(x, y, layer, oHitbox);
 	with _hitbox {
 		owner = other.id;
 		fixate = other.id;

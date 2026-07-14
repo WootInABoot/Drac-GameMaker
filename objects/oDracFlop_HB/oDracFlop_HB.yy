@@ -3,8 +3,6 @@
   "%Name":"oDracFlop_HB",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oDracFlop_HB",
@@ -13,7 +11,10 @@
     "name":"Hitboxes",
     "path":"folders/Objects/Player/Hitboxes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oHitbox",
+    "path":"objects/oHitbox/oHitbox.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

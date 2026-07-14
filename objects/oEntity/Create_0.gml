@@ -1,3 +1,12 @@
+///@description Physics Parent
+
+
+
+maxHP = 10;
+hp = maxHP;
+hitstun = 0;
+hitstop = 0;
+
 //dir
 facing = 1;
 
@@ -55,6 +64,10 @@ lockJump = false; // Lock horizontal input if true
 flickerTimer = 0; // For after images
 
 highJump = false; // For high jump anim
+
+holdable = false; // Can enemy be held?
+holdCooldown = 0;
+
 
 get_inputs = function(){
 	if not lockMove {

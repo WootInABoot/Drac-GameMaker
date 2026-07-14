@@ -60,6 +60,8 @@ flickerTimer = 0; // For after images
 
 highJump = false; // For high jump anim
 
+helditem = noone;
+
 get_inputs = function(){
 	if not lockMove {
 	

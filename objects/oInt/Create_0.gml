@@ -1,4 +1,5 @@
 // Vars with _ are temporary
+global.devmode = false;
 
 if (room == rmInt){
 	
@@ -9,6 +10,4 @@ if (room == rmInt){
 
 	// Next Room
 	room_goto_next()
-	
-	
 }

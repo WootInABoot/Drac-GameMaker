@@ -1,6 +1,17 @@
 function Drac_Idle(){
 	
 		#region // Animation Stuff 
+		
+
+if (sprite_index == sDracThrow) {
+	if image_index < 3 {
+		lockDir = true;
+		exit;
+	} else {
+		lockDir = false;
+		image_index = 0;
+	}
+}
 
 if (onground){
 	

@@ -11,14 +11,28 @@ if (_hits > 0){
 		if instance_exists(_hitID) and !array_contains(hit_array, _hitID){
 			array_push(hit_array, _hitID);
 			
+			var _hitConfirm = false;
 			with (_hitID) {
 				// Whatever happens to the enemy / object goes here
-				show_debug_message("hit!");
 				if (other.owner != id) and (other.fixate != id) {
+					// Hit has connected
+					_hitConfirm = true;
 					hspd *= other.kb_hx;
 					vspd *= other.kb_vx;
 					hspd += other.kb_h;
 					vspd += other.kb_v;
+					hp = max(hp - other.damage, 0);
+					hitstun = min(hitstun + other.hitstun, 200);
+					hitstop += other.hitstop;
+					
+					
+					
+				}
+			}
+			
+			if (_hitConfirm == true) {
+				if instance_exists(fixate) {
+					fixate.hitstop = recoilHitstop;
 				}
 			}
 		}

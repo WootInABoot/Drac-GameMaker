@@ -120,7 +120,7 @@ var _face = sign(hspd_pixel)
 // Check if absolute value is more than 1
 while (abs(hspd_pixel) >= 1){
 	hspd_pixel -= _face;
-	
+
 	// x Collision (If not touching wall, move, else not move)
 	if not place_meeting(x + _face, y, oWall){
 		x += _face

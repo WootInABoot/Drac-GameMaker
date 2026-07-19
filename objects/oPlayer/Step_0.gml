@@ -9,6 +9,7 @@ if (state = DRACSTATE.IDLE) {
 	if instance_exists(_item) {
 		if _item.holdable and helditem == noone and _item.holdCooldown <= 0 {
 			helditem = _item;
+			thrown = false;
 			state = DRACSTATE.CARRY;
 		}
 	}

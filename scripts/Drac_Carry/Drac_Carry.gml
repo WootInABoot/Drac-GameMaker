@@ -1,6 +1,8 @@
 function Drac_Carry(){
 	
 		#region // Animation Stuff 
+		
+thrown = false;
 
 if (onground){
 	
@@ -76,6 +78,7 @@ if (attackkey) {
 		with helditem {
 			hspd = other.image_xscale * 2 + other.hspd;
 			vspd = -1;
+			on_throw();
 		}
 		helditem = noone;
 		sprite_index = sDracThrow;

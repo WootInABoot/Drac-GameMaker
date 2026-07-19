@@ -66,7 +66,16 @@ flickerTimer = 0; // For after images
 highJump = false; // For high jump anim
 
 holdable = false; // Can enemy be held?
+thrown = false; // Is enemy being thrown?
 holdCooldown = 0;
+
+hspdDec = 0; // For boomerang behavior
+vspdDec = 0;
+
+boomerang_mode = false;
+boomerang_timer = 0;
+
+
 
 
 get_inputs = function(){
@@ -96,4 +105,8 @@ get_inputs = function(){
 	
 on_hit = function(){
 	
+}
+
+on_throw = function() {
+
 }
